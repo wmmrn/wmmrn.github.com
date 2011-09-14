@@ -11,7 +11,7 @@ $(document).ready(function() {
 	});
 
 	$("#flickrPics").jflickrfeed({
-		limit: 14,
+		limit: 15,
 		qstrings: { tags: "wmmrn" },
 		itemTemplate: "<a href='{{image_b}}'><img src='{{image_s}}' alt='{{title}}' title='{{title}}'/></a>"
 	});
