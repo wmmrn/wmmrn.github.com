@@ -35,25 +35,24 @@ h3 {
 }
 
 #wrapper {
-    background-image: url(bg.jpg);
-    background-color: #FCFCFC;
     width: 800px;
     margin: 0 auto;
-    padding: 0 0 20px;
     min-height: 100%;
-    -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
 }
 
 #wrapper header {
     padding-top: 10px;
     padding-left: 20px;
+    padding-bottom: 20px;
 }
 
 #main {
-    padding: 20px 0 0 20px;
-    margin-bottom: 20px;
+    padding: 20px 0 40px 20px;
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
+    background-image: url(bg.jpg);
+    background-color: #FCFCFC;
 }
 
 #headLeft, #headRight {
@@ -94,16 +93,15 @@ header h2 {
 }
 
 #next {
-    margin: 0 10px 10px;
+    margin: 0 30px 10px 10px;
     padding: 10px 20px;
     background-color: rgba(0, 0, 0, 0.1);
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    display: inline-block;
-    -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.4);
 }
 
 #next h3 {
@@ -211,7 +209,7 @@ a#webmontagIcon {
 }
 
 #echoes {
-    margin: 10px;
+    padding-right: 20px;
 }
 
 #echoes #echoesContent {
