@@ -2,37 +2,46 @@
 <html lang="de" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <title>Webmontag Metropolregion Rhein-Neckar/Mannheim</title>
-    <link rel="shortcut icon" href="resources/favicon.ico"/>
-    <link rel="stylesheet" href="resources/style.css"/>
-    <link rel="stylesheet" href="resources/custom.css"/>
-    <link rel="stylesheet" href="resources/jquery.tweet.css"/>
-    <meta name="robots" content="index,follow"/>
+    <title>Webmontag Metropolregion Rhein-Neckar / Mannheim</title>
+    <link rel="shortcut icon" href="resources/favicon.ico" />
+    <link rel="stylesheet" href="resources/style.css" />
+    <link rel="stylesheet" href="resources/custom.css" />
+    <link rel="stylesheet" href="resources/jquery.tweet.css" />
+    <meta name="robots" content="index,follow" />
+    
     <meta property="fb:page_id" content="172027039517064" />
+    <meta property="og:site_name" content="Webmontag Metropolregion Rhein-Neckar" />
+	<meta property="og:url" content="http://wmmrn.de/" />
+	<meta property="og:title" content="Webmontag Metropolregion Rhein-Neckar" />
+	<meta property="og:description"
+	    content="Der Webmontag in der Metropolregion Rhein-Neckar ist eine nicht-kommerzielle Veranstaltung rund um das World Wide Web." />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="http://wmmrn.de/resources/wmmrn.png" />
 </head>
 
 <body>
     <div id="wrapper">
         <header>
             <div class="left" id="headLeft">
-                <img src="resources/wmmrn.png" alt="wmmrn">
+                <img itemprop="image" src="resources/wmmrn.png" alt="wmmrn">
             </div>
-            <div class="left" id="headRight">
+            <div class="left" id="headRight" itemprop="name">
                 <h1>Webmontag MRN</h1>
-                <h2>Metropolregion Rhein-Neckar/Mannheim</h2>
+                <h2>Metropolregion Rhein-Neckar / Mannheim</h2>
             </div>
             <div class="clear"></div>
         </header>
 
         <section id="main">
 
-            <div id="next">
+            <div id="next" itemprop="events" itemscope itemtype="http://schema.org/Event">
                 <h3>
-                    Next: Webmontag.Barabend, 10. Oktober 2011, ab 19 Uhr
+                    Next: <span itemprop="name">Webmontag.Barabend</span>, 
+                    <time itemprop="startDate" datetime="2011-10-10T19:00+02:00">10. Oktober 2011, ab 19 Uhr</time>
                 </h3>
-                <p>
+                <p itemprop="location" itemscope itemtype="http://schema.org/Place">
                     &raquo; in der
-                    <a href="http://www.tomate-mannheim.de/" target="_blank">Tomate</a>
+                    <a itemprop="url" href="http://www.tomate-mannheim.de/" target="_blank">Cafe/Bar "Tomate"</a>
                     (<a href="http://maps.google.de/maps?q=Tomate,+B6,+Mannheim&hl=de&view=map&cid=3613268108388745049&t=m&z=16&vpsrc=0&iwloc=A" 
 						target="_blank">Karte</a>)<br />
                 </p>
@@ -44,23 +53,25 @@
             </div>
 
             <div class="left" id="mainLeft">
-                <p>
-                    Der Webmontag in der Metropolregion Rhein-Neckar ist eine informelle,
-                    nicht-kommerzielle Veranstaltung rund um Internet und Web X.0.
+                <p itemprop="description">
+                    Der Webmontag in der Metropolregion Rhein-Neckar ist eine
+                    informelle, nicht-kommerzielle Veranstaltung rund um das World Wide Web.
+                    Er bringt End-Anwender und Profis, Studenten und Forscher, Blogger, Podcaster,
+                    Mikro-Blogger und Interessierte zusammen.
                 </p>
                 <p>
-                    Er bringt End-Anwender und Profis, Studenten und Forscher, sowie Blogger, Podcaster,
-                    Mikro-Blogger und sonstige Internet-Interessierte zusammen.
+                    In Mannheim treffen wir uns alle vier Wochen in entspannter Runde für Diskussionen 
+                    im Rahmen des Webmontag.Barabend. Bei Barabenden gibt es kein Rahmenprogramm.
                 </p>
                 <p>
-                    In Mannheim treffen wir uns alle vier Wochen für Diskussionen im Rahmen des
-                    Webmontag.barabend / Usability Roundtable.
+                    Mit den Webmontag.Talk-Abenden, die im Schnitt alle drei Monate anstelle der Barabende
+                    stattfinden, haben wir ein neues Format eingeführt: Vier 15 Minuten langen Impulsvorträgen
+                    mit Diskussionsmöglichkeit schließen sich Networking und Austausch unter den Gästen als 
+                    soziale Komponente an.
                 </p>
                 <p>
-                    Zudem haben wir mit den Webmontag.talk-Abenden ein neues Format eingeführt: Vier 15
-                    Minuten langen Impulsvorträgen unter Einbeziehung des Publikums schließt sich
-                    intensives Networking als soziale Komponente an. Die Teilnahme an Webmontag.talk-Abenden
-                    ist immer kostenlos.
+                    Webmontage sind immer kostenlos und die Teilnahme ist immer auch ohne Anmeldung möglich.
+                    Für die Planung bitten wir jedoch um eine Anmeldung auf den jeweils genannten Plattformen.
                 </p>
                 <div id="share">
                     <div id="plusone">
