@@ -33,6 +33,7 @@ h1, h2, h3 {
 
 h3 {
     font-size: 1.5em;
+    text-shadow: 1px 1px 1px #CFCFCF;
 }
 
 #wrapper {
@@ -88,15 +89,27 @@ h3 {
 
 #share {
     margin-top: 20px;
-    height: 25px;
+    padding: 8px 20px;
+    background-color: #F9F9F9;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+	zoom: 1;
 }
 
 #plusone,
 #like,
 #twitter {
+    padding-top: 5px;
+    padding-right: 20px;
     float: left;
-    margin-right: 10px;
-    width: 135px;
+}
+
+#twitter {
+    float: right;
 }
 
 #next {
@@ -119,6 +132,10 @@ h3 {
 		progid:DXImageTransform.Microsoft.Shadow(color='#DDDDDD', Direction=305, Strength=3);
     box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.4);
 	zoom: 1;
+}
+
+#next span.next {
+    color: #C85D1C;
 }
 
 html.rgba #next {
@@ -205,11 +222,16 @@ a#webmontagIcon {
     background: url(icons.png) -90px 0;
 }
 
+#mainLeft h3,
+#mainRight h3,
+#share h3 {
+    margin: 10px 0 10px;
+}
+
 #tweet h3,
 #flickr h3,
 #echoes h3 {
     margin: 20px 0 10px;
-    text-shadow: 1px 1px 1px #CFCFCF;
 }
 
 #tweet .tweet {
@@ -230,7 +252,7 @@ a#webmontagIcon {
 }
 
 #echoes {
-    padding-right: 20px;
+    margin: 10px;
 }
 
 #echoes li {
