@@ -175,7 +175,12 @@ h4 {
 	box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.4);
 	zoom: 1;
 }
-
+#next ul.programm  {
+	margin-left: 11px;
+}
+#next .programm  li {
+	list-style-type: none;
+}
 #next span.next {
 	color: #C85D1C;
 }
