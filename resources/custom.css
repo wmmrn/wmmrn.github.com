@@ -154,7 +154,7 @@ h4 {
 	float: left;
 }
 
-#next {
+.nextEvent {
 	margin: 0 30px 10px 10px;
 	padding: 10px 20px;
 	background-color: #E9E9E9;
@@ -175,21 +175,21 @@ h4 {
 	box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.4);
 	zoom: 1;
 }
-#next ul.programm  {
+.nextEvent ul.programm  {
 	margin-left: 11px;
 }
-#next .programm  li {
+.nextEvent .programm  li {
 	list-style-type: none;
 }
-#next span.next {
+.nextEvent span.next {
 	color: #C85D1C;
 }
 
-html.rgba #next {
+html.rgba .nextEvent {
 	/*background-color: rgba(0, 0, 0, 0.1); does not work in IE9*/
 }
 
-#next h3 {
+.nextEvent h3 {
 	text-shadow: 1px 1px 1px #AAAAAA;
 }
 
