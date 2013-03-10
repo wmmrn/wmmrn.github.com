@@ -384,6 +384,10 @@ a#webmontagIcon {
 	padding: 4px;
 }
 
+.archive .eventsites {
+	margin-top: 8px;
+}
+
 /*
 	orga team
 */
@@ -406,6 +410,9 @@ a#webmontagIcon {
 	margin-right: 15px;
 }
 
+.orga-team  .teamtable {
+	width: 100%;
+}
 
 /*
 	small screens
