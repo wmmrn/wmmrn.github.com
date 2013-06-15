@@ -1,17 +1,6 @@
 
 $(document).ready(function() {
 
-	if ($().tweet) {
-		$('.tweet').tweet({
-			username: 'wmmrn',
-			//query: '#wmmrn',
-			avatar_size: 48,
-			count: 7,
-			loading_text: 'loading tweets...'
-			//, template: '{text} <br/>» {retweet_action}'
-		});
-	}
-
 	if ($().jflickrfeed) {
 		$('#flickrPics').jflickrfeed({
 			limit: 15,
