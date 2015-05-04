@@ -298,6 +298,15 @@ a#webmontagIcon {
 	margin: 20px 0 10px;
 }
 
+#mc_embed_signup form {
+	margin: 0;
+	padding: 0;
+}
+
+#mc_embed_signup form p {
+	padding-bottom: 10px;
+}
+
 #flickr #flickrPics a {
 	margin: 5px 5px 0 0;
 	width: 75px;
